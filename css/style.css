@@ -66,6 +66,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 /* Header */
@@ -86,7 +90,6 @@ html {
 }
 
 .top-navigation .links li {
-  text-decoration: none;
   display: inline-block;
   margin-left: 25px;
   word-spacing: 2px;
@@ -96,14 +99,14 @@ html {
   letter-spacing: 0.03em;
   font-family: Roboto, sans-serif;
 }
-.top-navigation .links li:hover {
+.top-navigation .links li a:hover {
   cursor: pointer;
   color: #333333;
 }
 
 .top-navigation .links .active {
   font-weight: 500;
-  color: 4c5058;
+  color: #4c5058;
 }
 img {
   width: 26px;
