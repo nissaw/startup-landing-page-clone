@@ -207,10 +207,51 @@ a {
 
 /* Footer */
 .social {
+  text-align: center;
   background: #FFF;
   height: 200px;
 }
 
 .social .content{
   border-top: 0.1em solid gray;
+  padding-top: 20px;
+}
+
+.social h4 {
+  font-size: 1em;
+  padding-bottom: 20px;
+  word-spacing: 1.5px;
+  letter-spacing: 1.5px;
+}
+
+.social li {
+  display: inline-block;
+  text-align: center;
+}
+
+.social ul li i{
+  width: 10px;
+  height: 5px;
+  padding: 20px;
+  border: 0.1em solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+
+}
+
+.social h6 {
+  font-size: 0.75em;
+  padding-top: 20px;
+  color: gray;
+  word-spacing: 1.5px;
+}
+.fa-instagram {
+  color: rgb(63, 114, 155)
+}
+.fa-facebook {
+  color: rgb(76, 102, 164);
+}
+.fa-twitter {
+  color: rgb(85, 172, 238);
 }
