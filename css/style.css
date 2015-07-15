@@ -52,16 +52,22 @@ table {
 
 body {
   background-color: LightGray;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; 
+
 }
 div {
   border: 1px solid Chocolate;
 }
 
 /* Universal */
+/*
 html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+*/
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -131,7 +137,7 @@ a {
 }
 
 .introduction h3 {
-  margin-top: 2em;
+  margin-top: 1em;
   text-align: center;
   font-size: 1.5em;
   font-weight: 300;
