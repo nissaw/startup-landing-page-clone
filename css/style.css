@@ -57,9 +57,7 @@ body {
   font-family: 'Roboto', sans-serif; 
 
 }
-div {
-  border: 1px solid Chocolate;
-}
+
 
 /* Universal */
 /*
@@ -82,7 +80,6 @@ a {
 .top-navigation {
   height: 71px;
   background-color: #FFF;
-  position: fixed;
   width: 100%;
 }
 .content {
@@ -167,4 +164,48 @@ a {
 }
 .introduction .big-button:hover {
   background-color: #C14821;
+}
+
+/* Big Three */
+
+.bigthree {
+  height: 550px;
+  background: #FFF;
+}
+
+.bigthree h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 200;
+  padding-bottom: 20px;
+  padding-top: 150px;
+}
+
+.bigthree ul {
+  text-align: center;
+}
+
+.bigthree ul li {
+  display: inline-block;
+  width: 33%; 
+}
+
+.bigthree ul li img {
+  width: 125px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.bigthree ul li h3 {
+  font-size: 25px;
+}
+
+/* Footer */
+.social {
+  background: #FFF;
+  height: 200px;
+}
+
+.social .content{
+  border-top: 0.1em solid gray;
 }
