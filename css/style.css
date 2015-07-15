@@ -82,6 +82,8 @@ a {
 .top-navigation {
   height: 71px;
   background-color: #FFF;
+  position: fixed;
+  width: 100%;
 }
 .content {
   width: 60rem;
